@@ -1,0 +1,14 @@
+References:
+
++----------------------- Tutorial videos -----------------------+
+
+** Reactでサイドバーナビゲーションの作り方！【React入門】
+-> https://www.youtube.com/watch?v=YtkwC5lSW0M
+
+** Build a Mindblowing 3D Portfolio Website // Three.js Beginner’s Tutorial
+-> https://www.youtube.com/watch?v=Q7AOvWpIVHU
+
++----------------------- Styling -----------------------+
+
+** Material Icons
+-> https://mui.com/material-ui/material-icons/
