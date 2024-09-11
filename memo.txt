@@ -12,3 +12,7 @@ References:
 
 ** Material Icons
 -> https://mui.com/material-ui/material-icons/
+
++----------------------- additional npm packages -----------------------+
+npm install react-draggable
+npm install framer-motion
