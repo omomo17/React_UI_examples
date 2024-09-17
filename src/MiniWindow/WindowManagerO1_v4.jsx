@@ -86,16 +86,13 @@ const WindowManager = () => {
 };
 
 const StyledWindow = ({ id, onClose, position, onDrag, containerRef }) => {
-    const [isDragging, setIsDragging] = useState(false);
     const [isAnimating, setIsAnimating] = useState(true);
 
     const handleDragStart = () => {
-        setIsDragging(true);
         setIsAnimating(false);
     };
 
-    const handleDragEnd = (event, info) => {
-        setIsDragging(false);
+    const handleDragEnd = () => {
         // ドラッグ終了後にアニメーションを再開するための遅延を設定
         setTimeout(() => {
             setIsAnimating(true);
