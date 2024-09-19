@@ -17,4 +17,5 @@ References:
 npm install react-draggable
 npm install framer-motion
 npm install react-icons --save
-npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+npm install matter-js
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-domn

@@ -13,11 +13,14 @@ const StyledWindow = ({
 }) => {
     const [isAnimating, setIsAnimating] = useState(true);
     const [initialY, setInitialY] = useState(0);
+    const [initialDelay, setInitialDelay] = useState(0);
 
     useEffect(() => {
         // 各ウインドウにランダムな開始位置を設定（0～20の範囲）
         const randomY = Math.random() * 20;
         setInitialY(randomY);
+        const randomDelay = Math.random() * 2;
+        setInitialDelay(randomDelay);
     }, []);
 
     const handleDragStart = () => {
@@ -63,6 +66,7 @@ const StyledWindow = ({
                         : false
                 }
                 transition={{
+                    delay: initialDelay,
                     repeat: Infinity,
                     duration: 5,
                     ease: 'easeInOut',

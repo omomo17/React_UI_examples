@@ -21,8 +21,8 @@ const WindowManager = () => {
 
     const getInitialPosition = (index) => {
         // ウインドウをおしゃれに配置
-        const xOffset = (index % 4) * 100 + (index % 2) * 20;
-        const yOffset = Math.floor((index - 1) / 4) * 150 + ((index % 3) * 15);
+        const xOffset = (index % 4) * 400 + (index % 2) * 20;
+        const yOffset = Math.floor((index - 1) / 4) * 400 + ((index % 3) * 15);
         return { x: xOffset, y: yOffset };
     };
 
